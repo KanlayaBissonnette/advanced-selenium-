@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DragandDropTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DragAndDropTests(failed)">
+    <classes>
+      <class name="com.herokuapp.theinternet.DragandDropTests.DragAndDropTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="dragAnddropTests"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.DragandDropTests.DragAndDropTests -->
+    </classes>
+  </test> <!-- DragAndDropTests(failed) -->
+</suite> <!-- Failed suite [DragandDropTestSuite] -->
